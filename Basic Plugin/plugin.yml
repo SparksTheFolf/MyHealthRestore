@@ -4,4 +4,4 @@ main: com.nolan.plugin.Main
 description: MyHealthRestore
 commands:
   Restore:
-  Depleate:
+  Deplete:

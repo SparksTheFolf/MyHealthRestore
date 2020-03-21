@@ -36,7 +36,7 @@ if (cmd.getName().equals("Restore")) {
 		}
 		
 		
-if (cmd.getName().equals("Depleate")) {
+if (cmd.getName().equals("Deplete")) {
 			
 			if(sender instanceof Player) {
 				Player player = (Player) sender;
