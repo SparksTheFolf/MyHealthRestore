@@ -1,7 +1,16 @@
 name: MyHealthRestore
+alias: ER
 version: 1.3.0
 main: com.nolan.plugin.Main
 description: MyHealthRestore
+author: stacker_nono	
+prefix: MHR
 commands:
   Restore:
+    usage: Restores Your Health
+    description: Restores Your Health	
+    aliases: R
   Deplete:
+    usage: Depletes Your Health
+    description: Depletes Your Health	
+    aliases: D
