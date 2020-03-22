@@ -57,7 +57,7 @@ if (cmd.getName().equals("Restore")) {
 				player.sendMessage(ChatColor.GRAY + "Hello, " + ChatColor.GREEN + player.getName()+ " Your Health has been restored to full");
 				player.setHealth(20.0);
 				player.setFoodLevel(20);
-				player.setWalkSpeed(100);
+
 			}else {
 				System.out.println("You cannot use this command through console!");
 			}
@@ -74,7 +74,6 @@ if (cmd.getName().equals("Deplete")) {
 				player.sendMessage(ChatColor.GRAY + "Hello, " + ChatColor.GREEN + player.getName()+ " Your Health has been Depleated to .5 Hearts");
 				player.setHealth(1);
 				player.setFoodLevel(2);
-				player.setWalkSpeed(1);
 			}else {
 				System.out.println("You cannot use this command through console!");
 			}
