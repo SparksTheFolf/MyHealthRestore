@@ -9,7 +9,7 @@ commands:
   Restore:
     usage: Restores Your Health
     description: Restores Your Health	
-    aliases: R
+    aliases: [R]
   Deplete:
     usage: Depletes Your Health
     description: Depletes Your Health	
